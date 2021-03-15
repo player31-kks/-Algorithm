@@ -11,5 +11,3 @@ for idx in range(1,len(Numbers)):
     dp_arr[idx] = max_num+1
     
 print(max(dp_arr))
-    
-    
