@@ -4,7 +4,6 @@ def distance(x1,y1,x2,y2):
     return ((x1-x2)**2+(y1-y2)**2)**0.5
     
 
-
 for _ in range(T):
     x1,y1,r1,x2,y2,r2 = map(int,input().split())
     d = distance(x1,y1,x2,y2)

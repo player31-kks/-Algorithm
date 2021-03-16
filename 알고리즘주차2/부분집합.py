@@ -10,6 +10,7 @@ a = [1,2,3]
 # 3 2
 # 3 3
 
+a =[1,2,3]
 def DFS(L,res):
     #종료조건
     if L ==len(a):
@@ -18,4 +19,4 @@ def DFS(L,res):
     else:
         DFS(L+1,res+str(a[L]))
         DFS(L+1,res)
-DFS(0,"hello")
+DFS(0,"")

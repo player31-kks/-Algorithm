@@ -1,6 +1,3 @@
-
-
-
 def DFS(L,res,ex):
     if L==M:
         print(res)

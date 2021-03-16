@@ -28,5 +28,7 @@ def split_2D_array(arr2D,direction):
     return split_array
 
 mid = len(M)//2
-print2D(split_2D_array(M[mid:],"left"))
-print2D(split_2D_array(M[mid:],"right"))
+# print(M[mid:][0])
+print2D(M[mid:][0])
+# print2D(split_2D_array(M[mid:][0],"left"))
+# print2D(split_2D_array(M[mid:][],"right"))
