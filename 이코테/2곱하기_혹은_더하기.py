@@ -7,4 +7,3 @@ for char in string:
         result+=num
     else:
         result*=num
-    

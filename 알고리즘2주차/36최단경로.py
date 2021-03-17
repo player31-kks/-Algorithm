@@ -2,6 +2,14 @@ import sys
 from collections import defaultdict
 import heapq
 
+
+# 다익스트라 알고리즘
+# BFS의 기반의 Greed 알고리즘 (heap 구조를 사용)
+# 현재의 최단경로를 뽑아서 인접한 경로를 다 더해본다.
+# 인접한 현재의 경로가 현재 경로에서 인접한 경로를 더한 값이 더 크다면 최단거리로 갱신한다.
+
+sys.stdin = open('a.txt','rt')
+
 graph = defaultdict(dict)
 
 V,E = map(int,input().split())
