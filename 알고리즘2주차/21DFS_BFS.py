@@ -7,17 +7,21 @@ def DFS(vertex,visited):
     visited[vertex] = True
     print(vertex,end=" ")
     for v in MAP[vertex]:
-        DFS(v,visited)
+        if visited[v] ==False:
+            DFS(v,visited)
         
 def BFS(vertex,visited):
     queue = deque([vertex])
     while queue:
         v=queue.popleft()
+        
+        if visited[v] ==True:
+            continue
+        
         visited[v]=True
         print(v,end=" ")
         for v in MAP[v]:
             if visited[v]==False:
-                visited[v]=True      
                 queue.append(v)
 #선언
 MAP = defaultdict(list)

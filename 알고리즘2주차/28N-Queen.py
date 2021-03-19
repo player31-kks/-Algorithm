@@ -41,3 +41,7 @@ N = int(input())
 for i in range(N):
     NQueen(0,i)
 print(cnt)
+    
+    
+    
+    
