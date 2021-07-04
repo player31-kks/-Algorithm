@@ -5,6 +5,10 @@ while D>0:
     G=G%D  
     G,D =D,G 
 
+while D>0:
+    G = G%D
+    G,D = D,G
+
 print(G)
 print(G*(A//G)*(B//G)) 
     

@@ -12,8 +12,6 @@ def digit_hap(num):
 for i in range(1,N+1):
     if selfie[i]== False:
         //N 100
-        [False,False,True,False,True,False,True,False True--  True --  True-False]
-        [  0    1     2     3     4     5     6     7    8      16   16+1+6 =23******100]
         move = i
         while True:
             if move<10:

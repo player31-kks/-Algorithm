@@ -2,7 +2,6 @@ import sys
 N = int(input())
 
 def DP(arr):
-    
     length = len(arr)
     one_step_arr = [0]*length
     two_step_arr = [0]*length

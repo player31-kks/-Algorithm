@@ -6,8 +6,8 @@ numbers = list(map(int,input().split()))
 queue = deque([i+1 for i in range(N)])
 
 ## deque를 이용하면 rotate하는 것이 쉬워집니다. 
-## deque.rotate(양수) => 오른쪽으로 수만큼 이동
-## deque.rotate(음수) => 왼쪽으로   수만큼 이동
+## deque.rotate(양수) => 오른쪽으로  수만큼 이동
+## deque.rotate(음수) => 왼쪽으로    수만큼 이동
 
 count = 0
 for num in numbers:

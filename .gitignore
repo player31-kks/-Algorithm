@@ -1,5 +1,5 @@
 /venv
-
+/코테
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
